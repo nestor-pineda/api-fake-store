@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+}
+#container {
+  width: 100vw;
+  overflow-y: hidden;
+  height: auto;
+  min-height: 100vh;
+  background-color: cadetblue;
+  margin: 0px;
+}
+
+#products {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+  overflow-y: hidden;
+  height: auto;
+
+  padding: 0px;
+}
+
+.card {
+  width: 20%;
+  background-color: #6ba9aa;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.35);
+  padding: 20px;
+  margin: 0px 15px;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.product-title {
+  text-align: center;
+  margin-top: 0px;
+  color: rgb(54, 50, 50);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.description {
+  color: rgb(54, 50, 50);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.price {
+  text-align: center;
+  color: rgb(54, 50, 50);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+img.picture {
+  max-width: 100%;
+}
